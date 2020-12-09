@@ -1,0 +1,38 @@
+d78f8251e Import translations. DO NOT MERGE ANYWHERE
+f133750dc Add MANAGE_SUBSCRIPTION_PLAN permission
+1c11dba2c Allow Location-off NetworkScan without READ_PRIV
+5595ee999 Add MANAGE_SUBSCRIPTION_PLAN permission
+b49a7d7b5 Remove protected broadcast from preferred tty mode
+9d9132362 Import translations. DO NOT MERGE ANYWHERE
+00d8063c1 Customize the service class for Call barring
+ca1480be5 Import translations. DO NOT MERGE ANYWHERE
+479e5ab9d Fix carrierconfig shell command is not working when slot is specified
+f53e12be9 Fix that voicemail number displayed as unknown after reboot device
+51ce7ab42 Ensure video provider is set on ImsConference from host connection.
+b899267c9 Import translations. DO NOT MERGE ANYWHERE
+7510c01b1 Import translations. DO NOT MERGE ANYWHERE
+c34ae0bac Import translations. DO NOT MERGE ANYWHERE
+c437b19db Do not return service state for inactive subid
+03641a762 Store the preferred network mode only if it set to modem successfully
+b9a3be6a3 Import translations. DO NOT MERGE ANYWHERE
+431f56b19 Import translations. DO NOT MERGE ANYWHERE
+910f1390e Remove IMS logs that may contain PII
+858d8f6ff Add support to fetch carrier config for no SIM case.
+feee34ca4 Import translations. DO NOT MERGE ANYWHERE
+4a879ad27 Import translations. DO NOT MERGE ANYWHERE
+6bee402a6 Import translations. DO NOT MERGE ANYWHERE
+43cdd16f5 Import translations. DO NOT MERGE ANYWHERE
+49581d438 Import translations. DO NOT MERGE ANYWHERE
+654681475 Import translations. DO NOT MERGE ANYWHERE
+919b8916f Add owners to update emergency number database, requested by management
+a088c6bcd Import translations. DO NOT MERGE ANYWHERE
+ad68e9ef5 Add HANDLE_CAR_MODE_CHANGED permission
+1d84a0e7c Set data_roaming property default false in TelephonyProperties
+b6d7efe68 Allow call forwarding number with prefixes to be dialed while on IMS roaming
+728961046 Add 5G stats to Phone info menu
+d8fc29824 Add new end-block-suppression command
+abd636054 Fixed that country unavailable in airplane mode
+39c2e5b29 Check if WFC enabled by platform when decide whether to show the WFC prompt.
+1b5fc03b2 Import translations. DO NOT MERGE
+5d5e5b9d5 Import translations. DO NOT MERGE
+dee534022 Check System permission for getRadioAccessFamily API

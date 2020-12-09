@@ -1,0 +1,27 @@
+4ac939239 SurfaceFlinger: check for nullptr on setFrameRate
+669090928 DO NOT MERGE: fillInputInfo: Guard against integer overflow.
+ae6a545e8 Removed android.software.backup from automotive.
+63bd9936d Handle defer transactions on a detached layer
+3c21a5608 libbinder: adopt BINDER_GET_FROZEN_INFO
+1e28624f6 Assign 0 to buckets that do not exist
+daf089725 binder: adopt BINDER_FREEZE api
+07eb42170 Only get target SDK version if not a VNDK client
+aa98b9c02 Make libarect_headers available for libRSSupport
+1846e8a3a Toggle for RenderEngine to cleanup texture memory.
+7f8989b50 AppOpsManager: Include op for RECORD_AUDIO_HOTWORD.
+8d49c3fba libbinder_ndk: fix failure when dump/shell are unset
+deb534676 libbinder_ndk: fix failure when dump/shell are unset
+264852293 servicemanager: Overwrite old service when a new one is registered
+c080030e7 Fix refresh rate callback fan-out for choreographer
+f69d11d6a SF: use cached vsync period
+da2e609eb Surface: do not evict outstanding buffer in onBuffersDiscarded
+2b65d6ca4 GpuService: secure setUpdatableDriverPath
+bc7ddfff6 SF: hwvsync on for more samples on recalibration
+01f986346 RESTRICT AUTOMERGE: Fix security bug
+8cd2bf53e VSR: dispatch cbs skipped due to timer lag.
+b96ea771e libbinder: setMinSchedulerPolicy
+baac04add Trace acquire fence at queue time instead of at latch time
+fc1435948 Don't quantize max range with a resolution of 0
+a7c736021 Increase touch video buffer size
+28dee2c58 SurfaceFlinger: Enable ealy offset for reused client composition
+4a0a55e0b Update parcel data pointer after realloc with size 0

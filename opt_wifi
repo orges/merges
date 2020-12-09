@@ -1,0 +1,106 @@
+09479b288 Import translations. DO NOT MERGE ANYWHERE
+7d7e35c61 Revert unit test change for the new 6GHz channelization
+846b99d62 Unit test for the new 6GHz channelization
+66d428e3c LINK_CONFIGURATION_CHANGED broadcast: stop including EXTRA_LINK_PROPERTIES
+801e4e9db [WifiTrackerLib] Reset default route booleans in BaseWifiTracker#onStart
+86ccaa0c6 Import translations. DO NOT MERGE ANYWHERE
+61e8b970e Import translations. DO NOT MERGE ANYWHERE
+11df1b6cf Import translations. DO NOT MERGE ANYWHERE
+51853b088 Bug fix of 6GHz band channelization
+aa47d50e2 Import translations. DO NOT MERGE ANYWHERE
+16f3a3a90 Import translations. DO NOT MERGE ANYWHERE
+8d45aeeb4 [Suggestion] Make allowAutoJoin consist for suggestion
+0e4add66a [WifiTrackerLib] Remove unit test for new edit dialog behavior
+80d0986ea Exponential backoff for external score blocklist
+b7e74905f [Passpoint] Add indication flag to wifiscanner logs
+92c556369 p2p: set default group owner intent for tests
+b45927fcc Import translations. DO NOT MERGE ANYWHERE
+2c1a3b167 Import translations. DO NOT MERGE ANYWHERE
+bac7430bc SupplicantStaIfaceCallback: Refactor FILS connection event handling
+27238dba7 p2p: select proper GO intent value according to STA states
+d09c13d54 Import translations. DO NOT MERGE ANYWHERE
+d8f20d663 Do not allow default network to be switched from WiFi to Cellular when RSSI is high
+5d1c5997e [WifiTrackerLib] Don't prompt password for never-connected networks
+5986283c4 [WifiTrackerLib] Show "Low quality" only if cell outscores wifi
+c8623f0fe Add metrics for Adaptive Connectivity toggle
+e9cfb8f54 wifi: bug fix of network selection when autoConnect == false
+706dd21d2 WifiNetworkFactory: Coalesce scan results for matches
+42317137d wifi: get the correct mainline version when wifi is disabled
+e1af31c33 wifi:get wifi stack version from  com.android.wifi
+b4d39a832 DeserializeData for new device without userDataStore
+2a81d3a5c Import translations. DO NOT MERGE ANYWHERE
+e39ae6526 Add Adaptive Connectivity toggle
+da1b2e9ed Adding network disabled status to user action metrics
+6aa15665a Add WifiStatus to UserAction metrics
+4036c533b Breakdown manual connection events
+e4e5a49db NPE: Add null check for getConfiguredNetwork()
+2ac7bbd85 [Enterprise] Fix hasEnterpriseConfigChanged method
+6d7ab08f5 Import translations. DO NOT MERGE ANYWHERE
+7035dae5d Import translations. DO NOT MERGE ANYWHERE
+756e8046a [Aware] End ndp and clean up after timeout.
+a15056fed Import translations. DO NOT MERGE ANYWHERE
+915b6d1dc [WifiTrackerLib] Add isDefaultNetwork boolean to WifiEntry
+bce69cffc Import translations. DO NOT MERGE ANYWHERE
+f1e69a7a5 Import translations. DO NOT MERGE ANYWHERE
+9bc50786a Import translations. DO NOT MERGE ANYWHERE
+c389040e5 Blocklist the BSSID if disassociation imminent bit is set
+61e893c15 [WifiTrackerLib] Add string for low quality connections
+3d896dcda Wifi usability: Add minimum confirmation duration for sending network score to connectivity service when score breaches
+29676fbdd Do clean up on changing of the wifi configuration credential.
+96dd54c75 [WifiTrackerLib] Don't remove connected passpoint entry with no scans
+4976b6758 [WifiTrackerLib] Handle isAutoJoinEnabled when no configs available
+356f4a66d Populate randomized mac address for passpoint wifi configs
+a9d5ac2ce [WifiTrackerLib] Add null check to setOsuWifiEntry()
+6ae159b62 [WifiTrackerLib] Use SSID as title for Osu entries with no friendly name
+636b3519b wifi: Move stop softap flow to looper thread
+65779e054 [WifiTrackerLib] Use WifiInfo MAC address if available
+c86dbb709 Wifi: Set package name on the intent
+653590862 NullPointerException on authentication of SIM based EAP
+ea6fc1290 Do not block BSSID if no internet is expected
+c4713c900 ScanRequestProxy: Return copy of list in getScanResults
+de82987e6 Import translations. DO NOT MERGE ANYWHERE
+8e3262bab Import translations. DO NOT MERGE ANYWHERE
+486a0e676 Import translations. DO NOT MERGE ANYWHERE
+3a3fcdb97 WifiScoreCard: catch IllegalArgumentException when SSID > 32 bytes
+50f8f0beb Re-enable BSSID after RSSI improvement
+cc1e31863 Separate framework initiated blocklists by reason
+032822434 Flush ANQP caches when toggling Wi-Fi off
+9ff9b719b Fix crash while calling getVendorInterface method observed during aging tests
+81437590a Handle IllegalArgumentException while doing addInterface.
+6c33a7523 Mark FILS akm as EAP in scan result capabilities.
+845d825ad ClientModeImpl: remove redundant comparison
+aa3941598 WifiP2pServiceImpl: check for null group owner
+411915fc3 SupplicantStaIfaceHal: check for null SupplicantStatus
+3e0366caf Extension API: Set initial score value to the max when starting connected network scorer
+dd6ac245b Update firmware roaming config for connected network
+bd98a9a88 Import translations. DO NOT MERGE ANYWHERE
+efa050606 Import translations. DO NOT MERGE ANYWHERE
+d24e64f18 Update IMSI protection notification flow
+c7320fe6e Revert "Update IMSI protection notification flow"
+b2d10e2c1 Revert "Revert "Update IMSI protection notification flow""
+6b983b4e0 Ringbuffer stops logging after wifi toggle
+c47516c56 [WPA3-Enterprise] Improve the security and robustness of profiles
+deeb41a85 Revert "Update IMSI protection notification flow"
+5564f3900 Remove all ephemeral networks when user switch
+861ad6f20 Update IMSI protection notification flow
+27e757ab5 [WPA3-Enterprise] Fix connection issues to ECDSA networks
+e123f5b97 [Aware] dynamic enabled ranging with discovery session
+cc841d2ab SupplicantStaIfaceHal: Trigger EAP auth failure on disconnect
+b060c09e7 [WifiTrackerLib] Hide Connect button if there is no active SIM of the carrier ID
+771b4dd25 ClientModeImpl: Reset WifiInfo on NETWORK_DISCONNECTION_EVENT
+7c2f6dff8 Import translations. DO NOT MERGE
+0d42ed61c Import translations. DO NOT MERGE
+657c2c35c Import translations. DO NOT MERGE
+0694bb8b0 [Passpoint] Remove R2 broadcasts
+d1b35627a [Passpoint] Remove R2 broadcasts
+af57e9532 [Passpoint] Remove R2 broadcasts
+a2af1bbd4 Import translations. DO NOT MERGE
+8b3b5f65e Import translations. DO NOT MERGE
+b980fc911 Import translations. DO NOT MERGE
+b1d01e0a4 Import translations. DO NOT MERGE
+8bf29f623 Import translations. DO NOT MERGE
+02da9e9db Import translations. DO NOT MERGE
+7139756cc Import translations. DO NOT MERGE
+af2d65452 Import translations. DO NOT MERGE
+8c184321d Import translations. DO NOT MERGE
+f50f12e2e Import translations. DO NOT MERGE

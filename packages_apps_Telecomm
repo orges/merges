@@ -1,0 +1,23 @@
+266f2436b Require MODIFY_PHONE_STATE for preferred TTY mode
+59591a84e Only track mic usage when call is alive
+a28f97e6d Exempt Dialer from power restrictions temporarily after missing a call
+cd1f26a15 Import translations. DO NOT MERGE ANYWHERE
+6235a7946 Start/Finish ap-op when telephony uses mic/camera
+febc8ecef Add stubs in InCallController to track microphone and camera use.
+a53359861 Fix crash when service unbinding exception happens.
+0103521b8 Import translations. DO NOT MERGE ANYWHERE
+98faa9a31 Suppress "dialer crashed" notification if the crashed dialer is system dialer.
+1245684c1 Import translations. DO NOT MERGE ANYWHERE
+eee5d851a Import translations. DO NOT MERGE ANYWHERE
+08df3ad6f Don't track speakerphone state outside calls
+f3f2d7c2d Fix security vulnerability of TelecomManager#getPhoneAccountsForPackage
+69e3886db Fix phone account comparison in Telecom dumpsys.
+6960c3074 Import translations. DO NOT MERGE
+0093282f1 Import translations. DO NOT MERGE
+b40771835 Don't track speakerphone state outside calls
+80c2d01d4 Don't complete in-call binding future for nonui
+ed0ae3b36 Import translations. DO NOT MERGE
+df23b6fa9 Import translations. DO NOT MERGE
+5b3436a40 Import translations. DO NOT MERGE
+9f76f76e0 Import translations. DO NOT MERGE
+13c266951 Import translations. DO NOT MERGE

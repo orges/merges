@@ -1,0 +1,50 @@
+5077e4a14 Null check on connection Test: make Bug: b/160213239 Change-Id: I1f7fba48caa326653b623b044734659a6fab4daa
+7629a9419 Reuse the data connection if the apn setting is same as requested
+2ea1cdc4d Move broadcast on CSS changed outside of GSM check
+dfcd2618b Fix invalid CID for NR CellInfo
+832013a3a DCT get SubscriptionPlans when initialized
+29cfb789b DCT get SubscriptionPlans when initialized
+db7d612c9 Data connection for carrier specific APN
+4d59c7c38 Fix carrier ID retrieval in VoiceCallSessionStats.
+9998845af Use lower of IPv4/IPv6 MTU values based on config
+2ebca0d0e Reset stream when falling back to non-gzip
+b6f1cc05c Fix NPE in SmsDispatchersController.
+fb1c0d488 Cancel Emergency call warning and network preference switch notification
+e5450cb50 Revert "Support Voice Clear Code for VoLTE"
+d47f77fb0 Add TYPE_NR to getCidFromCellIdentity
+c1e737bc1 Don't show PLMN when connected to WiFi on APM with WFC off
+e89a20a66 Check for combined channel bandwidths for LTE+ icon
+cd37e57aa Allow injection jar to be located in system_ext folder
+4ae538945 Minimize window during which default sub may be invalid.
+f7a2e7c57 Fallback to non-gzip
+4832693b2 [SMS] Report anomaly for SMS failure
+407df1f57 Do not use operator numeric from modem for IWLAN
+8a7a2464b Send placeholder OOS ServiceState when subId goes invalid
+e61e509c4 Update mPhones in PhoneConfigurationManager on multi-sim config change
+fd1001808 Do not filter by APN_SET_ID for emergency APNs
+f12875aaf Fix No Service when connected to WiFi on APM
+bd8f0b50c Run ImsSmsListener callbacks as self.
+5fd3296a0 [Telephony] Fix the display name cannot be updated after OTA
+37e8ef782 Fix "No service" is not shown without SIM
+6331d3492 Test that on urls changed callback called on add
+d9cb2cd6a Avoid unnecessary ArrayList copy.
+babfa91d5 Skip setVoiceMailNumber() operation if SIMRecords is disposed.
+1221ede9d Add package checking with Uid in EuiccController#getEid
+27351c98a Use actual data connection state
+7403bd546 Fix a bug where the subtype is not initialized correctly
+27bbf28a7 Fix spectrum-level 5g meteredness logic
+69eb0eb6d Remove unecessary locking to avoid dead lock.
+c327587d5 Fixed duplicate interface detector
+26b3e0e6d Store override DB file path as ParcelFileDescriptor not FileInputStream
+f08c38c41 Apply mSubInfoListLock lock whenever touching mCacheActiveSubInfoList
+4f728c8cd Ignore null binding on service died
+5bc593986 Change the range of default value of SSRRSQ
+2345f347d Fixed time zone issue after out of service
+bcbfa5a6c Add two cases for device resets NR timer
+407ead5b8 Invoke SMS filters for messages from blocked numbers.
+8c977c7e1 Clean up SMS filter handling.
+aafb18b1d Fixed that data connections not tearing down when APN set id changes
+155fd6542 Change eq method for connection reuse w\ dun apn
+6371f3454 Use Phone.getState() to check for active call to skip data stall recovery
+a28bf2a43 Disable DUN APN while roaming for certain carriers
+421fd9494 CDNR use ef_pnn as wfc carrier name if spn is null.

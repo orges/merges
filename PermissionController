@@ -1,0 +1,69 @@
+2f54adb67 Import translations. DO NOT MERGE ANYWHERE
+2ff7238fb Import translations. DO NOT MERGE ANYWHERE
+fc6cb1edc Import translations. DO NOT MERGE ANYWHERE
+412f5e7b8 Don't show mic usage while muted
+6f5857027 [DO NOT MERGE] Revert "Enable indicators if experiment flag is not present"
+bbc787bf9 Import translations. DO NOT MERGE ANYWHERE
+a3b42a425 Import translations. DO NOT MERGE ANYWHERE
+651ef4910 Import translations. DO NOT MERGE ANYWHERE
+bf3331f9d Always show icons and subtitle in ReviewOngoingUsage
+fc0c23abf Enable indicators if experiment flag is not present
+da1f30a22 Import translations. DO NOT MERGE ANYWHERE
+71c663dde Update build target for car-ui-lib
+489071add use ObserveStale for liveData in reviewOngoingUsage
+4627fa2ee Wait for non-stale app ops, add logs, remove useless code
+3e57b9e1c Import translations. DO NOT MERGE ANYWHERE
+1cd7a5efe Deal with slow permissionMgr dump
+356193b22 Import translations. DO NOT MERGE ANYWHERE
+0b5a364a1 Import translations. DO NOT MERGE ANYWHERE
+320e4ce08 Import translations. DO NOT MERGE ANYWHERE
+fa51a6e20 Show some limited system usage in ongoing usage dialog
+01cea2ff1 Update to latests UI mocks.
+bcb4ad88f Listen to real app-ops + small bug fixes
+aae32ffba Special phone call handling in ReivewOngoingUsage
+8c8ef7e0a Import translations. DO NOT MERGE ANYWHERE
+210ac14fe Import translations. DO NOT MERGE ANYWHERE
+1ab96cf89 Import translations. DO NOT MERGE ANYWHERE
+2b300278d Import translations. DO NOT MERGE ANYWHERE
+479e0a8ad Import translations. DO NOT MERGE ANYWHERE
+bdb5e2cc4 Import translations. DO NOT MERGE ANYWHERE
+a20807c00 Ensure Auto Revoke Fragment doesn't crash when showing load icon
+5ee8f80c8 Remove User Sensitive Assistant handling
+111283bea Import translations. DO NOT MERGE ANYWHERE
+7e9b0641d Move OnGoingUsage dialog out of debug folder
+92a2b3b19 Do not log pkg name on ongoing usage dialog
+fee645ba7 Import translations. DO NOT MERGE ANYWHERE
+f02bdf0b9 Do not show recent mic usage if the recording is silenced
+7fbe3d2d6 Use SharedPreferences for assistant mic switch, move tests to inprocess
+bfeea78a2 Requested UX fixed of ongoing usage dialog
+13237bee1 Gate permissions hub assistant handling behind flag
+b4425a31f Import translations. DO NOT MERGE ANYWHERE
+da3acff46 Import translations. DO NOT MERGE ANYWHERE
+858ee5a05 Also show non-running accesses which have recently ended
+c67195452 Update assistant microphone user sensitive flags
+0bc9331de Add test for ReviewOngoingUsageFragment
+0eaeefd40 Add test for PermissionUsageFragment.
+b385c4c12 Fix inprocess test helper apps.
+95639369a Small twists to usage debug UI
+34bb58207 Standardize on 'private permission_hub_2_enabled' as feature flag
+a48389aaa Re-enable PermissionUsage
+21469c566 Import translations. DO NOT MERGE ANYWHERE
+a42617616 Import translations. DO NOT MERGE ANYWHERE
+bf25ecfe9 Import translations. DO NOT MERGE ANYWHERE
+1df15af97 Resurrect the ReviewOngoingPermissionsFragment
+d0cf87fc4 Import translations. DO NOT MERGE ANYWHERE
+922e04c9a Import translations. DO NOT MERGE ANYWHERE
+882dc2f9e Import translations. DO NOT MERGE
+afbd64e0a Import translations. DO NOT MERGE
+04134cebd Import translations. DO NOT MERGE
+f454ed41d DO NOT MERGE Use permission group definintion if defined in PermissionController
+2b95d3401 Import translations. DO NOT MERGE
+bbadbf629 Import translations. DO NOT MERGE
+02bd29d23 Import translations. DO NOT MERGE
+d93f8e368 Import translations. DO NOT MERGE
+b8e105685 Import translations. DO NOT MERGE
+f7ce027f9 Import translations. DO NOT MERGE
+c98841fe6 resolve merge conflicts of 06f626aa88dd7e89f4d340cea680ec2b63a59d2c to rvc-d1-dev
+6a19fbf8a Import translations. DO NOT MERGE
+97f4d4895 Import translations. DO NOT MERGE
+c8d285561 Import translations. DO NOT MERGE

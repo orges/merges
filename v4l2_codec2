@@ -1,0 +1,43 @@
+fde4c9e V4L2Decoder: Handle V4L2 queue QBUF error
+de44698 V4L2Decoder: Recycle the empty buffer back to V4L2 output queue
+d81f0fc c2_e2e_test: decouple activity and test startup
+d264fb8 V4L2Decoder: do not stop fetching output buffers on drain or flush
+7b55edc V4L2Decoder: streamon V4L2 output queue in Flush()
+b21bd61 v4l2_codec2: Improve log statements in V4L2EncodeComponent.
+e8a0e06 v4l2_codec2: Don't use BufferUsage::VIDEO_ENCODER for input buffers.
+9cf0ab5 Make VideoFramePool and C2VdaBqBlockPool non-blocking when fetching
+2c6c900 VideoFramePool: Only accept one request at the same time
+fc3edbe v4l2_codec2: Fixes to V4L2EncodeComponent drain logic.
+c8f30de v4l2_codec2: Remove UnalignedSharedMemory.
+fbad28c v4l2_codec2: Mark V4L2EncodeComponent buffers as BufferUsage::VIDEO_ENCODER.
+efdbd3d v4l2_codec2: Remove duplicated HalPixelFormat and InputCodec types.
+f2cb0f3 v4l2_codec2: Change output buffer memory type to DMABuf.
+a4acf05 v4l2_codec2: Remove code that prepends SPS/PPS to IDR frames.
+72ae41c v4l2_codec2: Deprecate use of ::base::ScopedFD.
+b9bf2f9 c2_e2e_test: update E2eTestActivity theme
+9ded236 Reduce the verbosity of some logs
+776b2ad V4L2DecodeInterface: Add the comment for C2_PARAMKEY_PICTURE_SIZE
+d23406c V4L2DecodeInterface: Use fixed number for C2_PARAMKEY_PICTURE_SIZE
+29ce078 V4L2Decoder: Clear mFrameAtDevice when streamoff the output queue
+817872e V4L2Decoder: Skip fetching VideoFrame when no free V4L2 output slot
+cd9bd5d C2VdaBqBlockPool: don't log when dequeueBuffer() returns TIMED_OUT
+3d283c3 V4L2DecodeComponent: Limit the resolution of the output buffers
+224de3d C2VdaBqBlockPool: use hack to add IProducerListener
+089e075 C2VdaBqBlockPool: Remove spare buffer polling
+f326bf7 C2VdaBqBlockPool: handle max dequeued buffer count
+420c3e3 Remove C2VDAComponent and related test
+c8a09cc C2VdaBqBlockPool: fix the condition of a error log
+d36ce4f v4l2_codec2: Move BitstreamBuffer class to BitstreamBuffer.h.
+1da573c v4l2_codec2: Change input buffer memory type to DMABuf.
+f726eb7 Use H2BGraphicBufferProducer at C2VdaBqBlockPool
+b8b9791 V4L2Decoder: use map to associate block IDs to V4L2 buffers
+f14abff V4L2Decoder: pass the same output buffer to V4L2 Queue slot
+8138025 VideoFramePool: use exponential backoff for obtaining frames
+6ced266 C2VdaBqBlockPool: Remove unneeded check in fetchGraphicBlock()
+50b5cdf plugin_store: Switch to use C2VdaPooledBlockPool
+c982386 v4l2_device: Get V4L2 free buffer with requested buffer ID
+7c832f8 Change getPoolIdFromGraphicBlock() signature
+69289ba Add C2VdaPooledBlockPool class
+0283ebd C2VdaBqBlockPool: Add android namespace
+865f1a0 v4l2_codec2: Ignore unsupported controls in V4L2EncodeComponent.
+30cf47e v4l2_codec2: Implement Codec2 V4L2 encode component.

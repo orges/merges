@@ -1,0 +1,170 @@
+0a22d107f [DO NOT MERGE] Make overview to home translate faster
+a5dae88b7 [DO NOT MERGE] Remove CurveProperties#pageParentScale
+41874d1e0 [DO NOT MERGE] Snapshot strings from ub-branch to platform
+f5e8ecda3 DO NOT MERGE Only check activity rotation allowed when considering menu layout
+e209b03a7 Only load the first page in grid preview
+52dede83f Refrain from overwriting shortcut icon with default icon
+3aca92104 Make modal based UI changes in TaskView only if modalness changes.
+8a622edb7 Scale down chip proportional to TaskView becoming fullscreen.
+fee2b25b9 Implementing TouchDelegate to make full chip clickable.
+77e29775a Fix Robolectric test breakage Bug: 166204002
+5c460a466 Fix a couple issues with overview to home transition
+ff20eae38 Allow swipe up to go home from overivew during task dismiss animation
+375c602fc Set new scrimMultiplier instead of scrimProgress for overview -> home
+96186aff8 Minimal Phone Mode (part-3)
+107fe60f6 Ensure we clearState() when going to Overview from home
+9dfcc316c Track OverviewToHomeAnim with StateManager
+31ef24c93 Store mHistoricTimes as longs intead of floats
+ba6fec3ea [Overview Actions] Reset the modal task view when rotate from select mode.
+a14567096 Store mHistoricTimes as longs intead of floats
+1e414d500 Overview Actions - enable proactive actions flag.
+cf8275438 TaskOverlayFactory - remove static factory.
+9367f9834 [Overview Actions] Set launcher state to Overview when rotate in recents.
+fac874152 Overscroll plugin - give the plugin its own factory.
+06513f11c Don't reapply window transform if we are already running a window anim
+03a4a0cd5 Update overview from home transitions
+14e03d1c4 [Overview Actions] Add a logging event for tapping images in select mode.
+d6a1063f2 Add swipe up resistance to quick switch from home
+ce8b2b518 Add translation component to swipe up resistance
+3b9d5843c Fix adjacent page offset in landscape orientation
+d00340f7a Fixing cutouts insets not clipped properly during swipeup for rotated activities
+f58a2b9cd Fixing wrong velocity state when there are too few samples
+b8b3e957a Fix TaskViewTouchController success progress to match haptic
+3af714f05 Remove overscroll on running task when it's not attached to RecentsView
+3f8d86811 Defer recreation until resumed
+354a436f4 Rewrite long swipe resistance ("pullback") logic
+9b98d1302 Disable auto correct/suggest on folder edit text Bug: 160075575 Bug: 152541144
+bf103f16b Creating UI tests for overview action buttons.
+48afb6b3b Fixing wrong velocity state when there are too few samples
+553d4dfe7 Minimal Phone Mode (part-2)
+45c0918f4 Merging ub-launcher3-rvc-qpr-dev to rvc-qpr-dev
+16eb9226c Fix adjacent task offset distance
+f496ea463 Revert "Fix bug where double swipe gets us stuck in Hint state while in Overview."
+0a4a4d920 Revert "Merging from ub-launcher3-rvc-qpr-dev @ build 6690853"
+cfec6b515 Adding tracing for work profile removal
+b6d0607d8 Logs system navigation details part of launcher snapshot logging.
+00ad8ee72 Introducing a new gesture scope
+1a286a189 Fixing touches getting ignored just after swipe-up
+16e165def Fixing touches getting ignored just after swipe-up
+17f379bf4 Adds haptics to Overview gesture in Sandbox.
+ff4b14278 Fixing touches getting ignored just after swipe-up
+0ad7b172e Handle uiMode changes
+ccf92c658 Use TouchDelegate to listen for icon view taps on RecentsView
+3c3116826 Pass through touches in FolderIcon padding area
+a4661192f Limit launcher snapshot logging once per day.
+3344b8ce3 Fixes missing field mappings from launcher_atom.ItemInfo to Statslog.
+422015cb9 Minimal Phone Mode (part-1)
+30ac97d93 Adding home animation support for non-system Launcher
+354b8fc08 Use display of activity to get rotation for recents
+8dae83ee9 Fix launcher crash after restore with some specific widgets.
+f1af0171b Fix launcher crash after restore with some specific widgets.
+447ea429c Fix folder crash where view is added when it already has a parent.
+0f620500b Fix bug where realtimeReorder is called after views have been unbound.
+5b7bf9147 Create a new instance of rotation touch helper per device state
+bd1f4c6a7 Allow multiple hotseat restorations in single session
+19496b916 Import translations. DO NOT MERGE ANYWHERE
+25ed0dce2 Import translations. DO NOT MERGE ANYWHERE
+d5821326f Import translations. DO NOT MERGE ANYWHERE
+a92c6bb53 Import translations. DO NOT MERGE ANYWHERE
+453475d56 Fix hotseat file log name formatting
+e47896cb9 Invalidate stale BgDataModel when predictions are disabled
+a8c08584a Fix bug where double swipe gets us stuck in Hint state while in Overview.
+b1e65b07c Merge "Using original taskInfo to create the taskKey instead of fake data" into ub-launcher3-rvc-qpr-dev am: 054280dba4
+56cc3a4aa Persist prediction cache on every update
+5d09b2e35 Updating some comments and variables
+12f46d521 Fixing recents orientation (when home rotation is allowed) during swipe-up
+5e19073c2 Fixing oav text overlap.
+852537fd9 Using StatsLog for notifyingAppPredictor
+94be66acd Fix tracking window being slightly off when swiping from an app
+b814c3bb2 Infinite loop when migrating calendar widget
+85f9efa7c Infinite loop when migrating calendar widget
+0affd8903 Move rotation logic to RotationTouchHelper
+0d2eea331 Reset disabled flags when action buttons lose visibility.
+ba161b739 Increasing wait time for end-action events.
+68330a93f Disabling overview actions when thumbnail is not loaded.
+92628f530 Improve grid preview performance
+b023873bc Improve grid preview performance
+ee0ebe687 Calculate all apps cell height based on actual sizes.
+6d6dca6d3 Import translations. DO NOT MERGE
+369501d8a Fixing swiping up on home interrupting animation
+f865551ff Focuses on folder container for Accessibility when no contents to focus on.
+93188d61d Fixing swiping up on home interrupting animation
+aee792403 Fix velocity in StaggeredWorkspaceAnimation.
+55a9b544c Using original taskInfo to create the taskKey instead of fake data
+9d51e49ce Fixes the issue Launcher state propagation is slower than onDeferredResume.
+de43fb632 Notify TaskViews of updated orientation state
+452db0db0 Fix shelf tracking distance for landscape app over portrait launcher
+44a3b2030 Fixing shortcut popop non-clicable on the icon
+ddbaadb56 Wait until activity present before calling onEndTargetCalculated()
+a639d46c8 Preventing disambiguation screen when swiping up
+e888e9a4e Import translations. DO NOT MERGE
+bda86377d Import translations. DO NOT MERGE
+49cc656c5 Import translations. DO NOT MERGE
+3e0bc0da6 Import translations. DO NOT MERGE
+611fe7618 Place launcher above the target app in live tile mode
+494554057 Removing a method that simply returns false
+43218d677 Import translations. DO NOT MERGE ANYWHERE
+18e3dd64f Import translations. DO NOT MERGE ANYWHERE
+6adc72a4c Import translations. DO NOT MERGE ANYWHERE
+41046b77d Import translations. DO NOT MERGE ANYWHERE
+2ef5f38ae Import translations. DO NOT MERGE ANYWHERE
+7a1ffa322 Import translations. DO NOT MERGE ANYWHERE
+82d9d790b Import translations. DO NOT MERGE ANYWHERE
+b35bdbc8a More logging for the widgets scroll bug
+2060a4b9e Prevent showing TaskMenuView if icon isn't present
+d3332dd5f Import translations. DO NOT MERGE ANYWHERE
+153c4e5e7 Import translations. DO NOT MERGE ANYWHERE
+8a3ac8db0 Import translations. DO NOT MERGE ANYWHERE
+ea600c70f Creating a common method to iterate over all model items.
+c9c9a66f1 Update the position of the live tile overlay upon swipe up
+353594439 Calculate all apps cell height based on actual sizes.
+58d74c3dd Let AllAppsEduView consume touch until animation is done and view is removed.
+29266c9eb Updating some comments and variables
+798b5f481 Adding nullcheck while launching task during quickswitch
+e82110348 Import translations. DO NOT MERGE
+812f466f4 Import translations. DO NOT MERGE
+6d76207e3 Import translations. DO NOT MERGE
+cbf5763c6 Import translations. DO NOT MERGE
+6fd105b69 Updating gesture tutorial home animation
+b59776cd0 Fix all apps edu in landscape.
+64aefedf7 Fix bug where non-center page is visibile in HINT_STATE.
+faea66fe8 Ensuring workspace pages are offset properly in waterfall cutout
+ae76bebfe More diags for non-receiving scroll end
+9a0e18015 Removing separate overview prediction client
+141c231d2 Fixing recents orientation (when home rotation is allowed) during swipe-up
+1bab050df Go Launcher: Fix icon placement retention
+e38322294 Fix bug where non-center page is visibile in HINT_STATE.
+b0fd13608 Remove WRITE_SECURE_SETTINGS permission used for rotation flag
+451b09ea7 Persist prediction cache on every update
+0d213ebb7 Fixing recents orientation (when home rotation is allowed) during swipe-up
+3bf889a02 Fixes the issue Launcher state propagation is slower than onDeferredResume.
+1af70f272 Add logging for non-sending "end scrolled" event for Widgets
+84b848ad5 Fix all apps edu in landscape.
+53925ff9c Fixes NPE with system shortcuts.
+37bda2bcc Disable auto correct/suggest on folder edit text Bug: 160075575
+a3629bd52 Thumbnail Cache - check canceled status on the right thread.
+fabfb3ae9 Using original taskInfo to create the taskKey instead of fake data
+a190dc1f4 Zero tolerance towards referred destroyed activities
+54003963d Fix velocity in StaggeredWorkspaceAnimation.
+6e7c37a20 During accessible drag, hover events were not properly getting dispatched to the DragAndDropAccessibilityDelegate
+6ab4da8aa Fixes missing folder label after launcher restarts.
+f957ff912 Do preview grid migration in a worker thread
+56fe9150f Improving diagnostics when Launcher dies during a gesture
+633a4bdf5 Do preview grid migration in a worker thread
+514df92bc Add NPE check for prediction controller
+f0a1b2ccd Fix tracking window being slightly off when swiping from an app
+dfa3de7d3 Get rid of a weird shadow background when rendering smartspace in preview
+fb099c7fe Improving diagnostics when can't find a widget
+4b531b972 Updates Assistant gesture regions when no longer tracking multiple.
+c6a56ef7a Pass isLikelyToStartNewTask to onGestureStarted()
+2bbce930c Fixing NPE befre ActionsView first initialized.
+8995590e4 Use isolated display context to get display info
+7afa69d43 Revert "Disable grid option feature in ThemePicker"
+88f1f2046 Fixing NPE befre ActionsView first initialized.
+7776d3060 Fixing TaskMenu positioning.
+b6354114b Add explicit android:exported="true" declarations
+6fc3648e8 Fix map initial capcity.
+aa902e859 Add an exported flag in manifest
+3c2a17b6f Remove hotseat edu flag
+95cf9b05e Import translations. DO NOT MERGE
+59346999b Import translations. DO NOT MERGE

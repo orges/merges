@@ -1,0 +1,39 @@
+1019a17a9 composer: hold a sp<IComposer> from the service itself
+bfaf79c9c Remove MIN and MAX checking for hidl_enum in UserHalHelper native library.
+3648ac967 Return immediately when prop is not found
+b1aa30c3c Add configArray for Gear_Selection in google VHAL
+2c94e4301 Allowing GSI patch level to be greater than vbmeta SPL
+f2eaf2c29 VtsHalDrm: run tests in single shard
+674b27abc WifiNanIface: Validate interface before cleanup.
+c40aa186e Add capability check for satellite blacklist tests
+f5b567afa Keymaster: update the verifyAuthorization call time and delta time in VerificationToken VTS
+9eea6d5a7 Check emergency dialing result in DSDS or TSTS only if slot is in service or emergency only.
+a6cc5825e vts: Fix incorrect instance name in Teardown
+65516ffff wlan: add supported interfaces in rc file
+92ad8215e Update EmulatedUserHal to use UserHalHelper native library.
+590607780 Add INFO_MODEL and INFO_MODEL_YEAR default values
+55a4f59fb Fix double release of ScopedWakelock
+2595661c0 supplicant(vts): Stop framework after querying package manager
+6a1198e16 Merge "Fix Keymaster VTS unique attestation failure" am: 3e4d8d0856 am: b0f932739a
+1e7339550 Fixing a test in DeviceUniqueAttestationTest
+b33e2abbf Add a native UserHalHelper library.
+2329bba9f wifi(vts): Use blocking getService to wait for service to come up
+a46114dfb Ringbuffer stops logging after wifi toggle
+ef9374cb2 Camera HAL Vts : Fix usage flag combination during gralloc allocation.
+868c18341 [DO NOT MERGE] OMX VTS: Use GraphicBuffer utils from libui
+f0dfc4d62 Revert "Add Tuner HAL and TvInput HAL VTS tests into the exception list of the uninstantiated"
+1eaaa3918 wifi: Fix for DPP VTS test failures on 5GHz only devices
+6b75eeb04 wifi: Fix for DPP VTS test failures on 5GHz only devices
+0857d7caa Add Tuner HAL and TvInput HAL VTS tests into the exception list of the uninstantiated parameterized tests.
+6d0af445e wifi(vts): Use blocking getService to wait for service to come up
+de1d2b6cb Fix bugs in the Tuner HAL 1.0 VTS
+5b46a339d Fixed EmulatedUserHal merge issues.
+3e9d442fa Fixed EmulatedUserHal so it supports SwitchUserMessageType::VEHICLE_REQUEST
+ca7a8c955 wlan: add supported interfaces in rc file
+c8143625b Retrieve the last SvInfo list in TestGnssSvInfoFields
+cd4a39301 Fix GTestResultParser compatibility
+31c434b96 vts: supplicant: Remove optional service registration
+09f373d6c vts: hostapd: Remove optional service registration
+b3d4348b7 wifi: Update wifi_wait_for_driver_ready return status handling
+0505ab432 A2DP: Enable AAC VBR Offloading
+e815ecd6b add context_hub into audio hal group

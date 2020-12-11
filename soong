@@ -1,0 +1,54 @@
+3fc4c98bd Collect FORCE_USE_GOMA environment variable as a metric.
+dbe59cdd8 Deprecate USE_GOMA and replace with FORCE_USE_GOMA
+17fbc895e Add -D__ANDROID_NATIVE_BRIDGE__ to native_bridge targets
+5eae8cdca Start collecting build configuration metrics.
+ee50d5b5b [DO NOT MERGE] Add Goma deprecation PSA to soong.
+486337ea5 Add eakammer and patricearruda to OWNERS
+26195be91 Add a default value for the RBE_log_dir variable.
+cbe9aa2c2 Do not generate a random socket address for RBE if NOSTART_RBE is set.
+ee17f8c02 Add Goma deprecation PSA to soong.
+d2c89f631 Make the default exec strategy for javac/r8/d8 remote local fallback.
+54814ca5e Add reasonable defaults to RBE configuration parameters.
+320c04179 [DO NOT MERGE] Make the default exec strategy for javac/r8/d8 remote local fallback.
+8229916e1 [DO NOT MERGE] Add a default value for the RBE_log_dir variable.
+00ff4cc1e [DO NOT MERGE] Do not generate a random socket address for RBE if NOSTART_RBE is set.
+19c39230e [DO NOT MERGE] Add reasonable defaults to RBE configuration parameters.
+b258d9367 [DO NOT MERGE] Add newline to each generated bash script in rbe_test.go.
+b7cfc8eab Generate RBE socket address randomly for each invocation of soong.
+11c7e806f Migrating RBE flags to RBE_ variables.
+fbc4e3f9b [DO NOT MERGE] Add RBE metrics dump in Soong UI.
+498a732ed [DO NOT MERGE] Generate RBE socket address randomly for each invocation of soong.
+fc5a03c85 [DO NOT MERGE] Refactor RBE support for Javac/R8/D8 to use the remoteexec package.
+afa3c5f2e [DO NOT MERGE] Add support for remotely executing header-abi-dumper actions.
+c726ab533 [DO NOT MERGE] Allow remote execution of link actions.
+55b5e4258 Set the OS name in the metrics protobuf file
+f53a655b7 Use the build start time from Soong main UI for metrics build timestamp.
+6b9cdfa9b Use monotonic clock instead of wall time clock for metrics.
+c3cec8727 Run the metrics uploader in the background.
+d519a71f9 Upload build metrics after a build is completed.
+b48be3a2c Add a new protobuf message named Upload to upload build metrics.
+c60af159e Pass cpp linking implicit deps to RBE.
+c1be5ca62 Add support for the remote execution of Abi links.
+09a832cb1 Start collecting build configuration metrics.
+0db3d35c5 Set the OS name in the metrics protobuf file
+dd3020f35 Use the build start time from Soong main UI for metrics build timestamp.
+ac91c3f79 Use monotonic clock instead of wall time clock for metrics.
+70ca506da Add newline to each generated bash script in rbe_test.go.
+e7836594e Add RBE metrics dump in Soong UI.
+de44afac9 Run the metrics uploader in the background.
+4f7f60b54 Upload build metrics after a build is completed.
+2ce077605 Pass the TMPDIR directly to the command when dumping makefile variables.
+b2da01d45 Add a new protobuf message named Upload to upload build metrics.
+65e10fba5 [DO NOT MERGE] Do not add ccWrapper to ccNoDeps rule
+4807a1b5e [DO NOT MERGE] Add support for experimentally enabling RBE support on specific rules.
+c0d95df5d [DO NOT MERGE] Run non-RBE supported actions in the local pool when USE_RBE is set.
+80059e69c [DO NOT MERGE] Use localPool consistently for UseGoma() == true
+adf591a50 [DO NOT MERGE] Add USE_RBE support to soong.
+81aa8a42a Don't remove entries for overriddable modules
+4a9f512b4 apex_sets is added to apexkeys.txt
+9cd4216c5 Output apkcerts file for android_app_set.
+9ba460fd8 Add property api_levels_jar_filename to droidstubs
+591e59e51 Handle universal APK case in extract_apks
+5bc1744e8 Build transitive lint reports for apex modules
+5e218dbc1 Add environment variables to control lint checks
+f220db80b apex_set is force disabled when necessary

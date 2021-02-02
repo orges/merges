@@ -1,0 +1,2 @@
+ad482ee0c Check permission before sending batch scan result
+5f972bcf9 Check if advertiserId value matches valid advertiser

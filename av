@@ -1,44 +1,8 @@
-4a02061a8f Revert "mp3dec: Fix out of bound read error"
-f271aef474 Build static and shared libdrmframeworkcommon.
-819799cea6 mp3dec: Fix out of bound read error
-61cd8f097a m4v_h263: Fix heap buffer overflow issue in BitstreamFillCache
-9dcade585a Fix memory leak and abort
-72405f407a MediaMuxer:Avoid hang during stop() on empty track
-291deb99dc libmediadrm: support USABLE_IN_FUTURE in getMetrics
-067cd6c98a Fix APS death notification
-b56e743f04 Release AudioTrackCallback when the track is removed.
-515061e07d libstagefright: Do not use max/min luminance if it's 0
-1df51f3fa6 CCodec: don't trigger output format change after flush
-d341edc3e7 Camera: Clarify SCALER_CROP_REGION usage
-fd90fdfe2a Add package name when creating AudioTrack.
-3b63a258b1 C2SoftGav1Dec: remove non-eos flush
-33f03f6113 aaudio test: catch errors with release of input stream
-5cad6399aa aaudio: fix crash on disconnect for shared streams
-79224cacfb aaudio: prevent onAudioDeviceUpdate past close
-4719048ce0 aaudio: fix crash from callbacks during close
-e1f1cb5827 audio policy: correct force use touch sound delay
-b7aee6e111 framework/av,C2SoftGav1Dec: update to libgav1 v0.16.0
-717bc28fc5 audio flinger: handle race condition in AudioRecord creation
-d127644025 DO NOT MERGE Attribute SOURCE_HOTWORD to OP_RECORD_AUDIO_HOTWORD.
-af570c49ed Let mediaserver use CleanupMode::CLEAN_ALL mode for RenderEngine
-7633b161ee MediaCodec: fix output format change event timing
-ddbbf5591c C2SoftGav1Dec: sync copyOutput*() w/other codecs
-d1d051a002 Camera: Fix request metadata override for repeating request
-5e2cd30c89 Camera: Fix deadlock caused by ordering of mStatusLock and mCameraStatesLock.
-fbaedd7ccb Camera: Allow 0-face notifications to be sent
-33897bac97 audio policy: fix beacon mute delay
-e52b8fa8fa Camera: fix wrong signalStreamFlush call
-44f9ee26f6 audio policy: fix attributes for strategy "rerouting"
-e29b3425d0 Reserve item ids for samples + grid
-394ad70e9e Camera: Fix race between initialize() and statusCallback (take 2)
-66cddecf70 Revert "Camera: Fix race condition between initialize and statusCallback"
-55fd81d7e1 audio policy: fix concurrent capture policy for virtual sources
-cfb0ffb0a8 MediaMetric:Save each item indiviually for AudioPowerUsage
-377d9bd34d AudioFlinger: fix fast capture silence
-bdf75f9bce Camera: Fix HAL call order for setCallback
-4208ea0d5f Camera: Fix race condition between initialize and statusCallback
-a15aa8d1aa C2SoftVorbisDec: Fix memory leaks in multiple headers case
-5ed1a86d04 AudioMixer: Fix MONO_EXPAND for more than 2 channels
-457b39409e Camera: fix stream ID for failed buffer request
-2f7af40d26 Fix audio HAL restart sequence to improve uptime
-19e92b5bf7 Delete an uninitialized object in AACExtractor
+b113a017c6 MediaCodec: propagate usage from original surface to release surface
+0cf20d37b2 Fix potential overflow in WAV extractor
+d0f4d0b6ed Fix memory overflow in ESQueue
+1dee47d3cb Revert "mp3dec: Fix out of bound read error"
+4b15cdd5af Build static and shared libdrmframeworkcommon.
+5f2af0e099 mp3dec: Fix out of bound read error
+3c42efd7eb m4v_h263: Fix heap buffer overflow issue in BitstreamFillCache
+9d9eab6d7c Fix memory leak and abort

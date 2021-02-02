@@ -1,0 +1,4 @@
+783c7ec88 Fix potential OOB write in libbluetooth
+35fad6ff7 ACL: Drop broadcasts
+0277c560e Fix a security issue in sdp_server.cc
+0142639ad Check Classic key before cross-key derivation
